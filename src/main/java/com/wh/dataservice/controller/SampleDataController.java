@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 public class SampleDataController {
 
-    @RequestMapping(value = {"", "/test1"})
+    @RequestMapping(value = {"", "/test"})
     public String testRequest(HttpServletRequest request) {
         return "SampleDataController: your request is " + request.getRequestURL();
     }
